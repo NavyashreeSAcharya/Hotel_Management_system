@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Management System</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="public/css/style.css">
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo"></a>
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About us</a>
+          </li>
+
+          <li>
+            <a href="#room" class="navbar-link" data-nav-link>Rooms</a>
+          </li>
+
+          <li>
+            <a href="#typeofrooms" class="navbar-link" data-nav-link>Room Categories</a>
+          </li>
+
+          <li>
+            <a href="#infrastructure" class="navbar-link" data-nav-link>Infrastructure</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="btn btn-primary">Book your Room Now</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" class="open"></ion-icon>
+        <ion-icon name="close-outline" class="close"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+           <h2>Hotel Management System</h2>
+
+            <h1 class="h1 hero-title">HOTEL NAVMEGHA</h1>
+
+            <p class="hero-text">
+              Welcome to our exquisite hotel,where luxury meets comfort in the heart of the city.
+              Experience top-notch amenities , from a rejuvenating spa and a rooftop bar to gourmet dining options that cater to every palate.
+            </p>
+
+            <a href="#" class="btn btn-primary">login</a>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./images/main.jpg" width="720" height="673" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-label="service">
+        <div class="container">
+
+          <h2 class="h2 section-title">Services We Offer</h2>
+
+          <p class="section-text">
+            There are varieties of services we offer for our customers..
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #13c4a1">
+                  <ion-icon name="chatbox"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">
+                    Check-In and Reception</a>
+                </h3>
+
+                <p class="card-text">
+                  A warm and efficient check-in process where guests are welcomed and provided with key information about their stay.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #6610f2">
+                  <ion-icon name="desktop"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Room Accommodation</a>
+                </h3>
+
+                <p class="card-text">
+                  Ensuring guests are comfortably settled into their rooms , including assistance with luggage if needed.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #ffb700">
+                  <ion-icon name="bulb"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Concierge Services</a>
+                </h3>
+
+                <p class="card-text">
+                  Offering information , recommendations and assistance with booking local activities , transportationand reservations.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #fc3549">
+                  <ion-icon name="phone-portrait"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">House Keeping </a>
+                </h3>
+
+                <p class="card-text">
+                  Daily room cleaning,fresh linens,and amenities to maintain a clean and comfortable environment.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #00d280">
+                  <ion-icon name="archive"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Dining </a>
+                </h3>
+
+                <p class="card-text">
+                  Access to on-site restaurants , room services, and breakfast options.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon" style="background-color: #ff612f">
+                  <ion-icon name="build"></ion-icon>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Wi-Fi and Communication</a>
+                </h3>
+
+                <p class="card-text">
+                  Providing access to Wi-Fi, phone services, and any other communications needs for guests to stay connected during their stay. 
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" id="typeofrooms" aria-label="project">
+        <div class="container">
+
+          <h2 class="h2 section-title">Type Of Rooms We Provide</h2>
+
+          <p class="section-text">
+           Certainly we Navmegha offer a range of room types to cater our guest's diverse preferences and needs...
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./images/room1.jpeg" width="100" height="100" loading="lazy"
+                    alt="Designing a better cinema experience" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-subtitle">Deluxe Room</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Our Deluxe Rooms are the epitome of comfort and sophistication.</a>
+                  </h3>
+
+                  <a href="#" class="btn btn-primary">View Details</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./images/room2.avif" width="510" height="700" loading="lazy"
+                    alt="Building design process within teams" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-subtitle">Fairy Tale Tower Suite</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">This room is spacious and elegantly decorated , featuring plush furnishings and modern amenities.</a>
+                  </h3>
+
+                  <a href="#" class="btn btn-primary">View Details</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./images/room3.jpg" width="510" height="700" loading="lazy"
+                    alt="How intercom brings play into their design process" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-subtitle">Star light Fantasy Room</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">This room as a comfortable king sized bed to the stylish en-suite bathroom.</a>
+                  </h3>
+
+                  <a href="#" class="btn btn-primary">View Details</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./images/room4.jpg" width="510" height="700" loading="lazy"
+                    alt="Stuck with to-do list, I created a new app for" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-subtitle">Narnia Nook</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">In this room you can unwind after a long day of work or exploration in the cozy seating area.</a>
+                  </h3>
+
+                  <a href="#" class="btn btn-primary">View Details</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./images/room5.png" width="510" height="700" loading="lazy"
+                    alt="Examples of different types of sprints" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-subtitle">Phoenix Residency</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">This provide a luxurious relaxing experience.</a>
+                  </h3>
+
+                  <a href="#" class="btn btn-primary">View Details</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 510; --height: 700;">
+                  <img src="./images/room6.jpg" width="510" height="700" loading="lazy"
+                    alt="Redesigning the New York times app" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <p class="card-subtitle">Wonderland Room</p>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Super comfy rooms.</a>
+                  </h3>
+
+                  <a href="#" class="btn btn-primary">View Details</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT US
+      -->
+
+      <section class="section about" id="about us" aria-label="about us">
+        <div class="container">
+
+          <div class="about-banner img-holder">
+            <img src="./images/spa.jpg" width="720" height="960" loading="lazy" alt="about banner"
+              class="img-cover">
+              <img src="./images/cr.jpg" width="720" height="960" loading="lazy" alt="about banner"
+              class="img-cover">
+              <img src="./images/swimmingpool.jpg" width="720" height="960" loading="lazy" alt="about banner"
+              class="img-cover">
+
+            <button class="play-btn" aria-label="Play video">
+              <ion-icon name="play" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">Infrastructure</h2>
+
+            <p class="section-text">
+              Our hotel boasts a meticulously designed infrastructure that combines elegance with functionality to provide an exceptional experience
+              for our guests.
+            </p>
+
+            <h3 class="h3">Spa</h3>
+
+            <p class="section-text">
+              Our hotel's spa is a santuary of relaxation and rejuvenation , where guests can escape the stresses of everyday life.
+            </p>
+
+            <h3 class="h3">Swimming pool</h3>
+
+            <ul class="about-list">
+
+              <li class="about-item">
+                <ion-icon name="checkmark-circle" aria-hidden="true"></ion-icon>
+
+                <p class="section-text">
+                  Our hotel features a sparkling swimming pool that offers guests a refreshing oasis during their stay . Surronded by lush landscaping and comfortable
+                   loungers , our pool area provides a perfect spot to unwind and soak up the sun.
+                </p>
+              </li>
+
+              
+            </ul>
+
+            <h3 class="h3">Conference Rooms</h3>
+
+            <p class="section-text">
+              Our NAVMEGHA hotel boasts state of the art conference rooms designed to meet the diverse needs of our guests.These versatile spaces 
+              are equipped with the latest technology , providing a perfect setting for business meetings , conferences , seminars, and social events.
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact" aria-label="contact">
+        <div class="container">
+
+          <h2 class="h2 section-title">Book your room now</h2>
+
+          <p class="section-text">
+           Hotel NAVMEGHA , Udupi.
+          </p>
+
+          <form action="\" class="contact-form">
+
+            <div class="input-wrapper">
+              <input type="text" name="name" aria-label="name" placeholder="Full Name*" required class="input-field">
+
+              <input type="email" name="email_address" aria-label="email" placeholder="Email address*" required
+                class="input-field">
+            </div>
+            <div class="input-wrapper">
+            <input type="city you prefer" name="city you prefer" aria-label="city you prefer" 
+            placeholder="city you prefer" class="input-field"></div>
+
+            <div class="input-wrapper">
+            <input type="No of Rooms" name="No of Rooms" aria-label="No of Rooms"
+             placeholder="No of Rooms" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <input type="Total no of members" name="Total no of members" aria-label="Total no of members" placeholder="Total no of members" 
+              class="input-field">
+
+              <input type="Type of room" name="Type of room" aria-label="Type of room" placeholder="Type of room" 
+              class="input-field">
+
+              <input type="number" name="phone" aria-label="phone" placeholder="Phone number" class="input-field">
+            </div>
+
+
+
+            <textarea name="message" aria-label="message" placeholder="Your comments..*" required
+              class="input-field"></textarea>
+
+            <div class="checkbox-wrapper">
+              <input type="checkbox" name="terms_and_policy" id="terms" required class="checkbox">
+
+              <label for="terms" class="label">
+                By submitting this form, you<a href="#" class="label-link">Terms of services</a> and <a href="#" 
+                class="label-link">Privacy
+                  Policy</a>
+                </label>
+              </div>
+  
+              <button type="submit" class="btn btn-primary"  onclick="showThankYouMessage()">Book Now</button>
+  
+            </form>
+  
+           
+  
+          </div>
+        </section>
+  
+      </article>
+    </main>
+  
+  
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2023-24 All Rights Reserved by <a href="#" class="copyright-link">university</a>
+      </p>
+
+    </div>
+  </footer>
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" aria-label="back to top" data-back-top-btn class="back-top-btn">
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+   <script>function showThankYouMessage() {
+    alert("Thank you...For choosing our hotel");
+  }</script>
+</body>
+
+</html>
